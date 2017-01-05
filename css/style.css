@@ -3,10 +3,18 @@
   height: 60px;
   background-color: #fff;
   border-color: none; }
+  .menu.logo a {
+    color: blue; }
+  .menu.active {
+    background-color: #499bea; }
+    .menu.active a {
+      background-color: #499bea; }
 
 .banner {
   height: 500px;
   background-color: #499bea; }
+  .banner h1 {
+    color: #fff; }
 
 section h1 {
   text-align: center;

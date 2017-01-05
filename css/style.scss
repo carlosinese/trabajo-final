@@ -3,18 +3,35 @@
 	height: 60px;
 	background-color: #fff;
 	border-color: none;
+	&.logo{
+		a{
+			color: blue;
+		}
+
+	}
+	&.active{
+		background-color: rgba(73,155,234,1);
+		a{
+			background-color: rgba(73,155,234,1);
+		}
+	}
+	
 }
 
 
 .banner{
 	height: 500px;
-	background-color: #499bea;
+	background-color: rgba(73,155,234,1);
+	h1{
+		color: #fff;
+	}
+	
 
 }
 
 section{
 	 h1{
-	 text-align: center;
+	 	text-align: center;
 	 padding-top: 50px;
 	 }
 }
@@ -23,4 +40,12 @@ section{
 	height: 400px;
 	padding-top: 50px;
 	border-radius: none;
+
+
+
+
+
+
+
+
 }
